@@ -99,3 +99,13 @@ curl https://getcaddy.com | bash -s personal http.filebrowser
 # 备注
 V2Ray 客户端配置文件 SOCKS 监听端口为 2333， HTTP 监听端口为 6666  
 可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，此脚本显示的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。  
+
+# 备份安装方法
+确保你已经 Fork 了脚本，将 233boy 修改成你的 Github 用户名  
+
+```
+git clone https://github.com/233boy/v2ray -b master
+cd v2ray
+chmod +x install.sh
+./install.sh local
+```
