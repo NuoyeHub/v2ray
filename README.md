@@ -109,3 +109,10 @@ cd v2ray
 chmod +x install.sh
 ./install.sh local
 ```
+
+# git安装  
+
+```
+apt updata  
+apt install git  
+```
